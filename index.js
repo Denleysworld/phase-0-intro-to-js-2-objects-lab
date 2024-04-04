@@ -13,8 +13,8 @@ const employee = {
   }
   
   function deleteFromEmployeeByKey(employee, key) {
-    const { [key]: omit, ...newObj } = employee;
-    return newObj;
+    const { [key]: omit, ...newObject } = employee;
+    return newObject;
   }
   
   function destructivelyDeleteFromEmployeeByKey(employee, key) {
